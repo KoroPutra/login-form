@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(https://cinemags.org/wp-content/uploads/2023/04/Transformers-Rise-of-the-Beasts.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.background {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-card {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: 100px 0 0 0;
+  width: 300px;
+  height: 350px;
+  background-color: white;
+  border-radius: 5px;
+  gap: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.email {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pass {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  border: none;
+  padding: 7px;
+  border-radius: 4px;
+  background-color: green;
+  color: white;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+}
